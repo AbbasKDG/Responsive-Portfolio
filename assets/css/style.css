@@ -227,6 +227,12 @@ input[type=submit] {
   border: 0 none;
 }
 
+a {
+  color:white;
+  text-decoration: none;
+
+}
+
 @media screen and (max-width:768px){
  
   #masthead{            /* Mastheads position made absolute for smaller formats  */
