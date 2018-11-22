@@ -99,54 +99,85 @@
     <!---->
     <br />
     <!-- Profile Picture -->
-    <div class="col-2">
+    <div class="col-2 dropdown dropbtn">
       <img id="profile-pic" src="./assets//images/abbas.jpg" />
-      <a
-        class="nav-link dropdown-toggle dropclass"
-        href="#"
-        id="navbarDropdown"
-        role="button"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-      </a>
-
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">LinkedIn</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Github</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Em@il</a>
+      <div class="dropdown-content font-weight-bold">
+        <a href="#">LinkedIn</a> <a href="#">Github</a> <a href="#">Em@il</a>
       </div>
+      <!--
+        https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text
+      -->
+      <!---->
+      <!---->
+      <!---->
+      <!-- Hover drop down -->
+      <!--
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+          </div>
+        </div>
+      -->
+      <!---->
+      <!---->
+      <!---->
+      <!--
+        <a
+          class="nav-link dropdown-toggle dropclass"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">LinkedIn</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Github</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Em@il</a>
+        </div>
+      -->
     </div>
 
     <br />
 
-    <div class=" row container">
+    <div class="row container">
       <!-- Counters -->
 
-      <div class="col font-weight-bold">
-        <img class="counters" src="./assets//images/skills.png" /> Skills
+      <div class="col  font-weight-bold">
+        <a class="counterbtn" href="#skills">
+          <img class="counters" src="./assets//images/skills.png" /> Skills
+        </a>
       </div>
       <div class="col font-weight-bold">
-        <img class="counters" src="./assets//images/proj.jpg" />Projects
+        <a href="#projects">
+          <img class="counters" src="./assets//images/proj.jpg" />Projects
+        </a>
       </div>
-      <div class="col font-weight-bold font-weight-">
-        <img class="counters" src="./assets//images/aboutt.png" />About
+      <div class="col font-weight-bold">
+        <a href="#about">
+          <img class="counters" src="./assets//images/aboutt.png" />About
+        </a>
       </div>
     </div>
     <br />
 
     <!-- Parallax -->
-    <div class="parallax"></div>
+    <div class="parallaxMatrix"></div>
 
     <br />
     <br />
     <!-- Skills section -->
 
     <div class="container">
-      <div class="sect text-center font-weight-bold font-italic">Skills</div>
+      <div id="skills" class="sect text-center font-weight-bold font-italic">
+        Skills
+      </div>
       <hr />
       <br />
       <div class="row">
@@ -203,7 +234,9 @@
     <!-- Projects section -->
 
     <div class="container">
-      <div class="sect text-center font-weight-bold font-italic ">Projects</div>
+      <div id="projects" class="sect text-center font-weight-bold font-italic ">
+        Projects
+      </div>
       <hr />
       <br />
       <div class="row">
@@ -223,7 +256,9 @@
     <!-- About section -->
 
     <div class="container">
-      <div class="sect text-center font-weight-bold font-italic ">About</div>
+      <div id="about" class="sect text-center font-weight-bold font-italic ">
+        About
+      </div>
       <hr />
       <br />
       <div>
