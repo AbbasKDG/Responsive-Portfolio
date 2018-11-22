@@ -50,3 +50,8 @@ body {
   position: relative;
   z-index: 10000;
 }
+
+.footer {
+  background-color: #000000;
+  min-height: 70px;
+}
