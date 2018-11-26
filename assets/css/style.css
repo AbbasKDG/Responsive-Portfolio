@@ -51,7 +51,7 @@ body {
   background-image: url("../images/matrix.jpeg");
 
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 350px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -106,5 +106,4 @@ body {
 }
 
 .counterbtn a {
-  color: #000000;
-}
+  color: black;
