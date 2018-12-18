@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeeee;
+  background-color: #605bf15c;
 }
 
 #profile-pic {
@@ -107,3 +107,9 @@ body {
 
 .counterbtn a {
   color: black;
+}
+
+nav {
+  background-color: #eeeeee;
+  width: 100%;
+}
