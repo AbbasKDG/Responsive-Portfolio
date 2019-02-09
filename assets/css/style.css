@@ -1,7 +1,7 @@
 body {
-  background-color: #605bf15c;
+  font-family: "Staatliches", cursive;
+  background: rgb(241, 240, 240);
 }
-
 #profile-pic {
   width: 100;
   margin: 10;
@@ -18,14 +18,14 @@ body {
   border: 2px solid #ffffff;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("../images/pexels-photo-209235.jpeg");
+.nav-link a {
+  color: #f8f9fa;
+}
 
-  /* Set a specific height */
+.parallax {
+  background-image: url("../images/pexels-photo-209235.jpeg");
   min-height: 200px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,75 @@ body {
   color: black;
 }
 
+.facejumbo {
+  min-width: 100%;
+  min-width: 100vw;
+  min-height: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  /* position: relative; */
+  color: rgb(21, 52, 5);
+  background-image: url("../images/flowers.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.jumbotron {
+  /* display: flex;
+  text-overflow: hidden;
+  margin: 0px;
+  
+  
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-size: cover; */
+}
+
+#particles-js {
+  background: rgba(0, 10, 14, 0.8);
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
 nav {
   background-color: #eeeeee;
   width: 100%;
+}
+
+.navbar {
+  margin-left: 1rem;
+  width: 100%;
+  float: none;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.blurb {
+  background: rgba(255, 255, 255, 0.217);
+  background-size: 0rem;
+}
+
+.subtitle,
+a {
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }

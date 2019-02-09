@@ -6,16 +6,19 @@
     <meta name="description" content="Portal to Web Developer Abbas Moiz" />
     <meta
       name="keywords"
-      content="abbas, moiz, abbas moiz, web, design, react, developer, portfolio "
+      content="abbas, moiz, abbas moiz, data analyst, data, connected systems, web, design, react, developer, portfolio "
     />
     <meta name="author" content="Abbas Moiz" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
+    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+  
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -31,89 +34,71 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script>
+      ScrollReveal({ reset: true });
+  </script>
+  
+
+
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script> src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"
+      </script>
+      
   </head>
-
+  <!----------Nav--------->
   <body>
-    <div class=" position-sticky">
-      <nav class="navbar navbar-expand-xlg navbar-light bg-light">
-        <a class="navbar-brand font-weight-bold text-uppercase" href="#"
-          >Abbas Moiz</a
-        >
+      <div id="navbar" >
+          <a class="navbar-brand" href="#home" >
+              home
+           </a>
 
+          <a class="navbar-brand" href="#skills">
+              Skills
+           </a>
+           <a class="navbar-brand" href="#projects">
+              Projects
+             </a>
+             <a class="navbar-brand" href="#about">
+                About
+              </a>
 
+        </div>
+      <!----------END--------->
+    <!----------Banner--------->
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="home" class="facejumbo jumbotron vertical-center">
+          
+        <div class=" container text-center ">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-link" href="./assets/docs/BusinessCardDA.png">Business Card </a></li>
-            <li class="nav-item active"><a class="nav-link" href="./assets/docs/abbasmoizresume.pdf"></a>Resume</a></li>
-            <li class="nav-item active"> <a class="nav-link" href="https://www.linkedin.com/in/abbas-moiz-573b8836/" target="_blank">LinkedIn</a></li>
-            <li class="nav-item active"><a class="nav-link" href="https://github.com/AbbasKDG" target="_blank">Github</a></li>
-            <!-- <li class="nav-item"><a class="nav-link" href="abbasmoizhussain@gmail.com" target="_blank">Em@il</a></li> -->
-           
-        
-        
+          <h1 class="name text-uppercase blurb">🅐🅑🅑🅐🅢 🅜🅞🅘🅩</h1>
+          <h4 class="subtitle font-weight-light blurb">Data Analyst  |  Web Developer  |  Storyteller </h4>
+          <!-- <h5 class="" style="color:rgb(228, 228, 228)">Connected Systems, Digital Transformation and Data As A Service  </h5> -->
+          <ul class=" navbar-nav mr-auto ">
+              <li class="nav-item active blurb"><a class="nav-link" href="./assets/docs/BusinessCardDA.png">Business Card </a></li>
+              <li class="nav-item active blurb"><a class="nav-link" href="./assets/docs/abbasmoizresume.pdf" target="_blank">Resume</a></li>
+              <li class="nav-item active blurb"> <a class="nav-link" href="https://www.linkedin.com/in/abbas-moiz-573b8836/" target="_blank">LinkedIn</a></li>
+              <li class="nav-item active blurb"><a class="nav-link" href="https://github.com/AbbasKDG" target="_blank">Github</a></li>
           </ul>
         </div>
-      </nav>
-    </div>
-   
-    <br />
+        
 
-    <div class="col-2 dropdown dropbtn">
-      <img id="profile-pic" src="./assets/images/abbas.jpg" />
-      <!-- <div class="dropdown-content font-weight-bold">
-        <a
-          href="https://www.linkedin.com/in/abbas-moiz-573b8836/"
-          target="_blank"
-          >LinkedIn</a
-        >
-        <a href="https://github.com/AbbasKDG" target="_blank">Github</a>
-        <a href="abbasmoizhussain@gmail.com" target="_blank">Em@il</a>
+        
       </div>
-       -->
-    </div>
+      <!----------End--------->    
+      <br />
+      <br />  
 
-    <br />
+    <!----------ParallaxEffects--------->  
+    <!-- Parallax Matrix -->
+    <!-- <div class="parallaxMatrix"></div> -->
+    <!-- Wrenches Parallax -->
+    <!-- <div class="parallax2"></div> -->
+    <!-- Hammer Parallax -->
+    <!-- <div class="parallax"></div> -->
 
-    <div class="row container">
-      <!-- Counters -->
-
-      <div class="col  font-weight-bold counterbtn">
-        <a href="#skills">
-           Skills
-        </a>
-      </div>
-      <div class="col font-weight-bold counterbtn">
-        <a href="#projects">
-         Projects
-        </a>
-      </div>
-      <div class="col font-weight-bold counterbtn">
-        <a href="#about">
-          About
-        </a>
-      </div>
-    </div>
-    <br />
-
-    <!-- Parallax -->
-    <div class="parallaxMatrix"></div>
-
-    <br />
-    <br />
+    
     <!-- Skills section -->
 
     <div class="container">
@@ -185,15 +170,14 @@
     <br />
     <br />
 
-    <!-- Projects Parallax -->
-    <div class="parallax2"></div>
+    
 
     <br />
     <br />
 
     <!-- Projects section -->
 
-    <div class="container">
+    <div class="container  ">
       <div id="projects" class="sect text-center font-weight-bold font-italic ">
         Projects
       </div>
@@ -214,15 +198,14 @@
     </div>
     <br />
 
-    <!-- About Parallax -->
-    <div class="parallax"></div>
+    
 
     <br />
     <br />
 
     <!-- About section -->
 
-    <div class="container">
+    <div class="container ">
       <div id="about" class="sect text-center font-weight-bold font-italic ">
         About
       </div>
@@ -247,6 +230,17 @@
         </ul>
       </div>
     </div>
+    <script>
+      ScrollReveal().reveal('.skillbtn', { delay: 250 });
+          ScrollReveal().reveal('.projbtn', { delay: 700 });
+          ScrollReveal().reveal('.aboutbtn', { delay: 1500 });
+          ScrollReveal().reveal('.name', { delay: 100 });
+        ScrollReveal().reveal('.subtitle', { delay: 150 });
+        ScrollReveal().reveal('.blurb', { delay: 200});
+        ScrollReveal().reveal('.pop', { delay: 50});
+        </script>
+
+
   </body>
 
   <footer class="footer text-justify">
