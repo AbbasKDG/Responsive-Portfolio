@@ -64,8 +64,63 @@
                 About
               </a>
 
+
+              <style>
+              #navbar {
+                z-index:999;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+              </style>
+              <script>
+                window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+              </script>
+
         </div>
-      <!----------END--------->
+      <!----------NAV END--------->
     <!----------Banner--------->
 
     <div id="home" class="facejumbo jumbotron vertical-center">
@@ -86,7 +141,7 @@
 
         
       </div>
-      <!----------End--------->    
+      <!----------Banner End--------->    
       <br />
       <br />  
 
@@ -101,10 +156,14 @@
     
     <!-- Skills section -->
 
-    <div class="container">
-      <div id="skills" class="sect text-center font-weight-bold font-italic">
+    <div id="skills" class="container">
+      <br>
+      <br>
+      <br>
+      
+      <h2  class="sect text-center font-weight-bold font-italic">
         Skills
-      </div>
+      </h2>
       <hr />
       <br />
       <div class="row">
@@ -177,10 +236,14 @@
 
     <!-- Projects section -->
 
-    <div class="container  ">
-      <div id="projects" class="sect text-center font-weight-bold font-italic ">
+    <div id="projects" class="container  ">
+        <br />
+        <br />
+        <br />
+    
+      <h2  class="sect text-center font-weight-bold font-italic ">
         Projects
-      </div>
+      </h2>
       <hr />
       <br />
       <div class="card-group">
@@ -205,10 +268,15 @@
 
     <!-- About section -->
 
-    <div class="container ">
-      <div id="about" class="sect text-center font-weight-bold font-italic ">
+    <div id="about" class="container ">
+        <br />
+        <br />
+        <br />
+    
+        
+      <h2  class="sect text-center font-weight-bold font-italic ">
         About
-      </div>
+      </h2>
       <hr />
       <br />
       <div>
